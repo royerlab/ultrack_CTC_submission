@@ -1,0 +1,20 @@
+# .coveragerc to control coverage.py
+[run]
+omit =
+    */_test/*.py
+    ultrack/widgets/*
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    except ImportError:
+    except ModuleNotFoundError:
+    @(abc\.)?abstractmethod
+    @njit
+    @jitclass
+    @thread_worker
+    _SPEC
+    def __repr__
+    raise NotImplementedError
+    if __name__ == "__main__":
+    if TYPE_CHECKING:

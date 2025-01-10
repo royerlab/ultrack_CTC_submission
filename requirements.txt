@@ -1,0 +1,10 @@
+blosc==1.11.2
+arbol==2021.5.27.641
+opencv_python_headless==4.10.0.84
+tiler==0.3.1
+cutensor-cu11==2.0.1
+pandas==2.0.3
+sqlalchemy==1.4.45
+gurobipy==11.0.3
+napari-dexp
+dexp @ git+https://github.com/royerlab/dexp.git@8e8399f5d0d8f1e1ae0ddfa6cb6011921929ae0b

@@ -1,0 +1,33 @@
+
+[data]
+  database = "sqlite"
+  n_workers = 6
+  working_dir = "."
+
+[linking]
+  max_distance = 75.0
+  max_neighbors = 5
+  n_workers = 6
+
+[segmentation]
+  anisotropy_penalization = 0.0
+  max_area = 25000
+  max_noise = 0
+  min_area = 2500.0
+  min_frontier = 0.2
+  n_workers = 6
+  threshold = 0.5
+  ws_hierarchy = "area"
+
+[tracking]
+  appear_weight = -0.01
+  bias = 0.0
+  disappear_weight = -0.01
+  division_weight = -0.001
+  link_function = "power"
+  method = -1
+  n_threads = 0
+  overlap_size = 1
+  power = 4
+  solution_gap = 0
+  time_limit = 7200
